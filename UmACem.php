@@ -1,9 +1,7 @@
 <?php 
 
-for($i==1; $i<=100; $i++){
+for($i=1, $i<=100, $i++);
 
-	echo $i . PHP_EOL;
-
-}
+echo $i . PHP_EOL;
 
 ?>
